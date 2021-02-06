@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vapt Vupt</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="opcoes">Opções</string>
+
+    <string name="selecionar">Selecionar</string>
+    <string name="sacola">Sacola</string>
+    <string name="carrinho">Carrinho</string>
+    <string name="btn_acessar">PEDIR</string>
+    <string name="btn_adicionar">ADICIONAR AO CARRINHO</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="btn_finalizar">FINALIZAR PEDIDO</string>
+    <string name="btn_pedido">ENVIAR</string>
+
+
+</resources>

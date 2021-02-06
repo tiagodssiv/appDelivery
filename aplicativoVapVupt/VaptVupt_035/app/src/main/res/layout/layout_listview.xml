@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meus itens"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_alignParentLeft="true"></TextView>
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_remover"
+            android:id="@+id/img_sair"/>
+        />
+
+
+</RelativeLayout>
+
+ <View
+     android:layout_marginTop="10dp"
+     android:layout_width="match_parent"
+     android:layout_height="1dip"
+     android:background="#A8A8A8"
+
+     />
+ <ListView android:layout_height="150dp"
+        android:layout_width="match_parent"
+     android:layout_marginTop="10dp"
+        android:id="@+id/lista"
+
+     />
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="1dip"
+     android:background="#A8A8A8"
+/>
+
+ <RelativeLayout
+     android:layout_margin="5dp"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent">
+  <LinearLayout android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:orientation="horizontal"
+      android:layout_centerHorizontal="true">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Valor Total R$ "/>
+  <TextView
+     android:layout_marginLeft="15dp"
+     android:id="@+id/valor"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:textAppearance="@style/TextAppearance.AppCompat.Title"
+/>
+  </LinearLayout>
+ </RelativeLayout>
+
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="1dip"
+     android:background="#A8A8A8"
+     />
+
+ <android.support.v7.widget.AppCompatButton
+     android:id="@+id/btn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="8dp"
+     style="@style/Widget.AppCompat.Button.Colored"
+     android:visibility="gone"
+     android:text="@string/btn_finalizar" />
+
+
+
+ </LinearLayout>

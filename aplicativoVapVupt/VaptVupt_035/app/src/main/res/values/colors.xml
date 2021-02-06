@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffa000</color>
+    <color name="colorPrimaryDark">#c67100</color>
+    <color name="colorAccent">#ffd149</color>
+    <color name="tercearia">#eceff1</color>
+    <color name="listsPrincipal">#ffffff</color>
+    <color name="coorTransparentWHITE">#cccccc</color>
+
+
+
+
+</resources>

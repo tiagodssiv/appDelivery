@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:id="@+id/foto"
+            android:src="@drawable/coca"/>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+<TextView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+    android:id="@+id/nome"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                   android:text="R$"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                 />
+
+                <TextView android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:maxLength="5"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:id="@+id/pre"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+   </LinearLayout>
+
+
+
+
+
+</LinearLayout>
